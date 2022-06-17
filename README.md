@@ -15,7 +15,7 @@ Also, confirm that the Postgresql server is ready to accept connections from cli
 sudo pg_isready
 
 
-#Installing pgAdmin4 in Ubuntu 20.04
+# Installing pgAdmin4 in Ubuntu 20.04
 1. curl https://www.pgadmin.org/static/packages_pgadmin_org.pub | sudo apt-key add
 2. sudo sh -c 'echo "deb https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/$(lsb_release -cs) pgadmin4 main" > /etc/apt/sources.list.d/pgadmin4.list && apt update'
 3. sudo apt install pgadmin4 // Its automatically will restart the Apache2 
