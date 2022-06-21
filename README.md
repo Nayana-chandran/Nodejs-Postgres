@@ -26,9 +26,14 @@ http://SERVER_IP/pgadmin4
 eg: http://127.0.0.1/pgadmin4/
 Use your login credentilas and login
 
-#Coonect postgres through terminal
+# Connect postgres through terminal
 sudo -i -u postgres
 psql
-To check the connection information
+- To check the connection information
 \conninfo
 // You are connected to database "postgres" as user "postgres" via socket in "/var/run/postgresql" at port "5432".
+- To get the list of user roles
+\du
+ Role name |                         Attributes                         | Member of 
+-----------+------------------------------------------------------------+-----------
+ postgres  | Superuser, Create role, Create DB, Replication, Bypass RLS | {}
