@@ -25,3 +25,10 @@ This script will configure Apache2 to serve the pgAdmin4 web application which i
 http://SERVER_IP/pgadmin4
 eg: http://127.0.0.1/pgadmin4/
 Use your login credentilas and login
+
+#Coonect postgres through terminal
+sudo -i -u postgres
+psql
+To check the connection information
+\conninfo
+// You are connected to database "postgres" as user "postgres" via socket in "/var/run/postgresql" at port "5432".
