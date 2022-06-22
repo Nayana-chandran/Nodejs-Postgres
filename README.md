@@ -30,6 +30,7 @@ Use your login credentilas and login
 sudo -i -u postgres
 psql
 - To check the connection information
+
 \conninfo
 // You are connected to database "postgres" as user "postgres" via socket in "/var/run/postgresql" at port "5432".
 - To get the list of user roles
