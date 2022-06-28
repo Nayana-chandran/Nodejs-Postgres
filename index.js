@@ -9,10 +9,6 @@ const client = new Client({
   password: 'welcome@123',
   port: 5432,
 })
-// client.connect(function(err) {
-//   if (err) throw err;
-//   console.log("Connected with postgres!");
-// });
 
 const execute = async (query) => {
   try {
@@ -40,9 +36,6 @@ execute(text).then(result => {
       console.log('Table created');
   }
 });
-
-// app.use(bodyParser.urlencoded({ extended: true }));
-// app.use(bodyParser.json());
 
 const port = 3020;
 
