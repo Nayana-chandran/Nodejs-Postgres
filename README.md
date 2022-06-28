@@ -33,3 +33,12 @@ psql
 // You are connected to database "postgres" as user "postgres" via socket in "/var/run/postgresql" at port "5432".
 
 - To get the list of user roles  : \du
+
+
+# Create new node project
+1. Create new folder : mkdir nodewtpostgres
+2. npm init
+// Create the file (example index.js) for entry file
+3. run the file by node index.js
+// That will result the text in terminal how we execusted in particular file
+Eg : Example app listening at http://localhost:3020
